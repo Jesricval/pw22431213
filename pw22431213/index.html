@@ -1,0 +1,82 @@
+<!--COMENTARIO-->
+<!DOCTYPE html> <!--ya es html5-->
+<html lang="en">
+
+<!--etiqueta de encabezado, que conjunto de caracteres. etc-->
+<head>
+    <!--que caracteres acepta esta pagina-->
+    <meta charset="UTF-8">
+    <!--este meta es para dispositivos moviles-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--titulo de la pagina-->
+    <title>Document</title>
+</head>
+<!--todo el contenido de la pagina se encuentra en el body-->
+<body>
+    texto corrido <br> texto salto
+    <!--encabezados (header)-->
+    <h1>e1</h1>
+    <h2>e2</h2>
+    <H3>e3</H3>
+    <H4>e4</H4>
+    <H5>e5</H5>
+    <H6>e6</H6>
+
+    <br>
+        este es un parrafo
+    <p align="center"> <!--la etiqueta align se debe de poner con css, se puede pero no es buena practica-->
+        este es un parrafo
+    </p>
+
+    <a href="https://wordly.org" target="_blank">clic para abrir wordle</a> <!--ancla (anchor) -->
+    <!--LISTA DESORDENADA-->
+    <ul>
+        <li>e1</li>
+        <li>e2</li>
+        <li>e3</li>
+    </ul>
+    <!--lista ordenada-->
+    <ol>
+        <li>e</li>
+        <li>e</li>
+        <li>e</li>
+    </ol>
+    <!--tabla-->
+    tabla
+    <table>
+        <caption>tiitulo de tablaa</caption>
+        <thead>
+            <th>col1</th>
+            <th>col2</th>
+            <th>col3</th>
+            <th colspan="2">col4</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>c1</td>
+                <td>c2</td>
+                <td>c3</td>
+                <td>c4</td>
+                <td>c5</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <img src="img/shoot.avif" width="1000" alt="shooting">
+    <!-- FORMULARIO -->
+    <form action="index.html" method="get">
+        <label for="">nombre</label>
+        <input name = "nombre" type="text" > <br>
+        <input type="text" placeholder="texto"> <br>
+        <input type="number" placeholder="numero"> <br>
+        <input type="color" name="" id=""> <br>
+        <input type="date" name="" id=""> <br>
+        <input type="time" name="" id=""> <br>
+        <input type="file" name="" id=""> <br>
+        <input type="email" name="" id=""> <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+        <input type="submit" value="subir">
+        <input type="reset" value="borrar">
+    </form>
+</body>
+</html>
