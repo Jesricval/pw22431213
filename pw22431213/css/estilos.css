@@ -1,0 +1,27 @@
+body{
+    border: 10px solid rgb(180, 120, 245);
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+header nav ul{
+    text-align: center;
+}
+
+header nav ul li{
+    background: rgb(116, 213, 213);
+    color: white;
+    border: 1px solid blue;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 16px 26px;
+}
+header nav li:hover{
+    background: white;
+    color: blue
+}
+
+img{
+    width: 200px;
+}
